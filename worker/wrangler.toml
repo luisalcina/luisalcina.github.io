@@ -1,6 +1,7 @@
 name = "luis-ai"
 main = "src/index.ts"
 compatibility_date = "2026-10-14"
+workers_dev = true
 
 [vars]
 ALLOWED_ORIGINS = "https://www.luisalcina.com,https://luisalcina.com"
