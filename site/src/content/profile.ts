@@ -13,7 +13,7 @@ export const profile = {
   caseStudies: [
     {
       mark: 'AI',
-      label: 'Case study 01 / Anonymized BPO',
+      label: 'Case study 01 / BPO operations',
       title: 'Turning complex program creation into a natural conversation.',
       challenge: 'Professional services and operations teams were completing repetitive, technically complex tasks at scale. Creating a new customer program involved structured JSON data, API calls, database management, and specialized platform knowledge—an end-to-end process that could take one to three days.',
       solution: 'Luis led the strategy, workflow design, integrations, and delivery of a portfolio of AI skills. Team members can describe their goal in natural language, guide the assistant through requirements, and create or update programs and user data without needing to operate the technical systems directly.',
@@ -23,13 +23,23 @@ export const profile = {
     },
     {
       mark: 'CC',
-      label: 'Case study 02 / Anonymized sales team',
+      label: 'Case study 02 / Sales workflow',
       title: 'Making every sales call start with the right next step.',
       challenge: 'Sales teams were working from an incomplete outreach cadence, which limited contact rates and left agents responsible for managing calling lists alongside their system of record.',
       solution: 'Luis owned the strategy, solution design, configuration, integration, delivery, and rollout of a CCaaS dialer workflow. The system applies a comprehensive outreach cadence, brings the calling experience together with the system of record, and guides agents from login through the next best call.',
       workflow: ['Define the outreach strategy and calling cadence', 'Configure the dialer around the sales workflow', 'Integrate the calling experience with the system of record', 'Guide agents to the right calls without list management'],
       systems: ['CCaaS', 'Sales dialer', 'System of record', 'Calling cadence'],
       impact: 'Gave agents one integrated workflow instead of separate calling and record-keeping systems, removed the burden of maintaining calling lists, and improved contact rates through a more purposeful cadence.'
+    },
+    {
+      mark: 'API',
+      label: 'Case study 03 / Fuel pricing workflow',
+      title: 'Turning daily market-price research into a clear morning decision.',
+      challenge: 'A multi-location fuel retailer needed to keep prices competitive, but the owner had to manually research nearby stations to understand the local market. That process could take substantial time at each location and made it easy for pricing gaps to persist unnoticed.',
+      solution: 'Luis took the idea from problem to rollout, designing an automation that collects nearby fuel prices from an external market-data source, compares them with the retailer’s own prices, uses an LLM to turn the comparison into practical feedback, and emails the owner a concise daily briefing.',
+      workflow: ['Trigger the pricing review each morning', 'Retrieve nearby market prices through an API', 'Compare external and internal price data', 'Generate plain-language recommendations with an LLM', 'Email the owner a briefing ready for action'],
+      systems: ['Market-price API', 'LLM', 'Email automation', 'Data comparison'],
+      impact: 'Replaced recurring manual price checks with a daily briefing, giving the owner faster visibility into pricing gaps and more time to coordinate action with station managers.'
     }
   ],
   foundations: [
