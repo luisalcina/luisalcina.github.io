@@ -10,7 +10,12 @@ export const profile = {
     { label: 'Integrations & APIs', copy: 'Connecting platforms, information, and workflows so the whole system works with less effort.', glyph: '↗' },
     { label: 'Solution Delivery', copy: 'Taking technical ideas from ambiguity to an implementation people can understand and adopt.', glyph: '⊹' }
   ],
-  credentials: ['Prompt Engineering Specialization · Vanderbilt University', 'Google Data Analytics Professional Certificate', 'Google Project Management Professional Certificate', 'Workato Automation Pro I & II'],
+  foundations: [
+    { label: 'Automotive', copy: 'Building deeper context around connected operations, dealership systems, and customer journeys.' },
+    { label: 'Healthcare integrations', copy: 'Developing a practical systems perspective for secure, connected healthcare workflows.' },
+    { label: 'Payment gateways', copy: 'Exploring the technology and integration patterns that make transactions reliable and trusted.' },
+    { label: 'CRMs', copy: 'Strengthening the customer-data foundation behind smarter, more connected experiences.' }
+  ],
   suggestedQuestions: [
     'What does Luis specialize in?',
     'How does Luis think about AI?',
