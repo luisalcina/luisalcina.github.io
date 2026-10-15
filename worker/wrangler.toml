@@ -3,4 +3,6 @@ main = "src/index.ts"
 compatibility_date = "2026-10-14"
 
 [vars]
-ALLOWED_ORIGIN = "https://www.luisalcina.com"
+ALLOWED_ORIGINS = "https://www.luisalcina.com,https://luisalcina.com"
+# Set OPENROUTER_MODEL with: npx wrangler secret put OPENROUTER_MODEL
+# Keeping the model name in a secret lets you change it without a source update.
