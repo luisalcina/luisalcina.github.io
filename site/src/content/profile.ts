@@ -1,7 +1,7 @@
 export const profile = {
   name: 'Luis Alcina',
   role: 'Technology professional focused on AI, CCaaS, integrations, and technical strategy.',
-  location: 'Naples, Florida',
+  location: 'Miami, Florida',
   linkedIn: 'https://www.linkedin.com/in/luis-alcina-63272318b/',
   github: 'https://github.com/luisalcina',
   focus: [
