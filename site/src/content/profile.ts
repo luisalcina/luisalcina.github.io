@@ -1,6 +1,12 @@
 export const profile = {
   name: 'Luis Alcina',
-  role: 'Technology professional focused on AI, CCaaS, integrations, and technical strategy.',
+  role: 'Senior Solutions Delivery Consultant at Nextiva, focused on enterprise CCaaS, integrations, automation, AI, and technical strategy.',
+  currentRole: {
+    title: 'Senior Solutions Delivery Consultant',
+    company: 'Nextiva',
+    since: 'August 2025',
+    summary: 'Designing and delivering enterprise CCaaS solutions for complex, multi-location contact centers—from discovery through deployment.'
+  },
   location: 'Miami, Florida',
   linkedIn: 'https://www.linkedin.com/in/luis-alcina-63272318b/',
   github: 'https://github.com/luisalcina',
@@ -70,6 +76,7 @@ export const answerFromProfile = (question: string) => {
   const q = question.toLowerCase()
   if (q.includes('connect') || q.includes('contact') || q.includes('linkedin')) return `The best way to connect is on LinkedIn: ${profile.linkedIn}`
   if (q.includes('ai') || q.includes('automation')) return 'Luis is interested in practical AI and automation—using technology to remove operational friction and create better experiences for teams and customers.'
+  if (q.includes('job') || q.includes('current') || q.includes('nextiva')) return 'Luis is a Senior Solutions Delivery Consultant at Nextiva. He designs and delivers enterprise CCaaS solutions, including integrations, advanced call flows, dialer strategies, and process improvements for complex contact centers.'
   if (q.includes('problem') || q.includes('solve') || q.includes('work')) return 'Luis focuses on technical strategy, solution delivery, integrations, CCaaS, and automation. He is most interested in the point where technical systems and real business problems meet.'
-  return 'Luis is a technology professional focused on AI, contact-center technology, systems integrations, solution delivery, and technical strategy. Detailed case studies are being prepared; in the meantime, LinkedIn is the best source for his current background.'
+  return 'Luis is a Senior Solutions Delivery Consultant at Nextiva, focused on AI, contact-center technology, systems integrations, solution delivery, and technical strategy. Detailed case studies are available above, and LinkedIn is the best source for connecting.'
 }
