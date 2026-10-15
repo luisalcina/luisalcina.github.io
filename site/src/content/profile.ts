@@ -40,6 +40,16 @@ export const profile = {
       workflow: ['Trigger the pricing review each morning', 'Retrieve nearby market prices through an API', 'Compare external and internal price data', 'Generate plain-language recommendations with an LLM', 'Email the owner a briefing ready for action'],
       systems: ['Market-price API', 'LLM', 'Email automation', 'Data comparison'],
       impact: 'Replaced recurring manual price checks with a daily briefing, giving the owner faster visibility into pricing gaps and more time to coordinate action with station managers.'
+    },
+    {
+      mark: 'FHIR',
+      label: 'Case study 04 / Healthcare workflows',
+      title: 'Giving contact-center teams the patient context they need, in one place.',
+      challenge: 'Service-delivery and implementation teams needed contact-center and EHR platforms to work together. Without an integration, systems could not exchange information, leaving agents without an efficient way to complete patient-related tasks inside their primary interaction workspace.',
+      solution: 'Luis configured, tested, and rolled out integrations between multiple EHR platforms and a CCaaS environment. The connected workflow lets users handle interactions in the contact-center platform while securely exchanging relevant information with the EHR through FHIR APIs.',
+      workflow: ['Configure and connect the CCaaS environment to the EHR', 'Route the agent interaction through the contact-center workspace', 'Exchange relevant context with the EHR through FHIR APIs', 'Support verification, appointment, and refill-related workflows', 'Send an interaction note back to the EHR when the conversation ends'],
+      systems: ['EHR platforms', 'CCaaS', 'FHIR APIs', 'Interaction notes'],
+      impact: 'Created a more unified agent experience, making patient-related workflows easier to complete and supporting greater day-to-day productivity.'
     }
   ],
   foundations: [
