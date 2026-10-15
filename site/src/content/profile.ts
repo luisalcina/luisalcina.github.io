@@ -5,10 +5,10 @@ export const profile = {
   linkedIn: 'https://www.linkedin.com/in/luis-alcina-63272318b/',
   github: 'https://github.com/luisalcina',
   focus: [
-    { label: 'AI & Automation', copy: 'Practical uses of AI and automation that reduce friction and make teams more effective.', glyph: '✦' },
-    { label: 'Contact Center Technology', copy: 'Customer engagement systems and CCaaS experiences designed around real operational needs.', glyph: '◌' },
-    { label: 'Integrations & APIs', copy: 'Connecting platforms, information, and workflows so the whole system works with less effort.', glyph: '↗' },
-    { label: 'Solution Delivery', copy: 'Taking technical ideas from ambiguity to an implementation people can understand and adopt.', glyph: '⊹' }
+    { label: 'AI & Automation', copy: 'Practical uses of AI and automation that reduce friction and make teams more effective.', glyph: '✦', href: '#case-ai', action: 'Read the case study' },
+    { label: 'Contact Center Technology', copy: 'Customer engagement systems and CCaaS experiences designed around real operational needs.', glyph: '◌', href: '#case-cc', action: 'Read the case study' },
+    { label: 'Integrations & APIs', copy: 'Connecting platforms, information, and workflows so the whole system works with less effort.', glyph: '↗', href: '#connect', action: 'Start a conversation' },
+    { label: 'Solution Delivery', copy: 'Taking technical ideas from ambiguity to an implementation people can understand and adopt.', glyph: '⊹', href: '#connect', action: 'Start a conversation' }
   ],
   caseStudies: [
     {
